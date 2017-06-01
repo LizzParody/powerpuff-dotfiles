@@ -1,0 +1,11 @@
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[user]
+	name = Liz Parody
+	email = lizparody@gmail.com
+[core]
+	editor = vim
+[color]
+	ui = true
